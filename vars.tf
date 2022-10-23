@@ -41,5 +41,5 @@ variable "PUBLIC_ZONE_ID" {}
 variable "PRIVATE_ZONE_ID" {}
 
 
-variable "INSTANCE_COUNT" {}
+//variable "INSTANCE_COUNT" {}
 variable "PROMETHEUS_IP" {}
