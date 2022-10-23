@@ -3,7 +3,7 @@ PROJECT                 = "roboshop"
 PUBLIC_ZONE_ID          = "Z0462442QH5T6H1KPDGO"
 PRIVATE_ZONE_ID         = "Z04748881QTGM14CJWM7A"
 WORKSTATION_IP          = "172.31.1.237/32"
-PROMETHEUS_IP           = "172.31.0.198/32"
+PROMETHEUS_IP           = "172.31.31.31/32"
 
 //VPC
 VPC_CIDR                = "10.100.0.0/16"
