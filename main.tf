@@ -73,9 +73,9 @@ module "EKS" {
   ENV                     = var.ENV
   PRIVATE_SUBNET_IDS      = module.vpc.PRIVATE_SUBNET_ID
   PUBLIC_SUBNET_IDS       = module.vpc.PUBLIC_SUBNET_ID
-  DESIRED_SIZE            = 2
+  DESIRED_SIZE            = 1
   MAX_SIZE                = 4
-  MIN_SIZE                = 2
+  MIN_SIZE                = 1
   //CREATE_ALB_INGRESS      = true
   // CREATE_EXTERNAL_SECRETS = true
 }
